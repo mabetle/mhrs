@@ -1,8 +1,7 @@
 /*
-Design by Free CSS Templates
-http://www.freecsstemplates.org
-Released for free under a Creative Commons Attribution 2.5 License
-*/
+ * layout.css
+ * @author Korben Zhang
+ */
 
 body {
     margin: 0;
@@ -75,7 +74,6 @@ div.header {
 
 div.logo h1, div.logo p {
     float: left;
-    text-transform: lowercase;
 }
 
 div.logo h1 {

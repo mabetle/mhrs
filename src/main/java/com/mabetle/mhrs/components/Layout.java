@@ -33,12 +33,6 @@ public class Layout
     @Inject
     private ComponentResources resources;
 
-    @Property
-    @Inject
-    @Symbol(SymbolConstants.APPLICATION_VERSION)
-    private String appVersion;
-
-
     public String getClassForPageName()
     {
         return resources.getPageName().equalsIgnoreCase(pageName)

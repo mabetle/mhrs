@@ -6,9 +6,15 @@
 *.ear
 
 
+#file
+.gradletasknamecache
+
+
 #dir
 
 target
-
+build
+.settings
+.gradle
 
 
